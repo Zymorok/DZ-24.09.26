@@ -47,12 +47,12 @@ export default ({ config }: ConfigContext): ExpoConfig => {
       package: dynamicConfig.packageName,
       versionCode: 1,
       predictiveBackGestureEnabled: false,
-      adaptiveIcon: {
+      adaptiveIcon: environment === "production" ? {
         backgroundColor: "#E6F4FE",
         foregroundImage: dynamicConfig.adaptiveIconForeground,
         backgroundImage: dynamicConfig.adaptiveIconBackground,
         monochromeImage: dynamicConfig.adaptiveIconMonochrome,
-      },
+      } : undefined,
     },
 
     web: {
