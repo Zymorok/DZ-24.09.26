@@ -84,7 +84,7 @@ export default function GameScreen() {
           onPress={handleReset}
           activeOpacity={0.8}
         >
-          <Text style={styles.resetText}>Скинути гру</Text>
+          <Text style={styles.resetText}>Нова гра</Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>

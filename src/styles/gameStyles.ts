@@ -24,7 +24,7 @@ export const createStyles = (colors: ThemeColors) => StyleSheet.create({
     marginTop: 20,
     paddingVertical: 12,
     paddingHorizontal: 24,
-    backgroundColor: "#007bff",
+    backgroundColor: "#16a34a",
     borderRadius: 8,
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
